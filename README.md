@@ -5,7 +5,7 @@ I've loved the approach of Coda Hale's [DropWizard](http://dropwizard.io) projec
 ## Structure
 
 * Resources are mounted on /api/* instead of root
-* Static files are served out of the assets directory in the root (not from the resources directory in the jar). No rebuild/restart required when asset files are updated
+* Static files mounted on /* and served out of the assets directory in the root (not from the resources directory in the jar). No rebuild/restart required when asset files are updated
 * index.html is served as default on /
 * A sample resource and representation, hello-world, is included
 * Procfile takes care of configuring $PORT as port
