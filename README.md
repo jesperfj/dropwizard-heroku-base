@@ -11,3 +11,4 @@ I've loved the approach of Coda Hale's [DropWizard](http://dropwizard.io) projec
 * Procfile takes care of configuring $PORT as port
 * jar file is always named 'app.jar' (no project name or version name) so this project can be forked and renamed in pom.xml without having to update Procfile. 
 * Similarly, the YAML configuration file is generically named 'app.yml'.
+* No database config included because I suspect many apps won't actually be using a postgres database
