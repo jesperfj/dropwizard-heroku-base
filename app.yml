@@ -1,0 +1,10 @@
+server:
+  type: simple
+  applicationContextPath: /
+  rootPath: /api/*
+  connector:
+    type: http
+
+assets:
+  overrides:
+    /: assets/
